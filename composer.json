@@ -1,0 +1,22 @@
+{
+    "name": "secureaks/vulnerable-components",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Secureaks\\VulnerableComponents\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Romain Garcia",
+            "email": "garciar@secureaks.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "symfony/http-foundation": "^6.3",
+        "phroute/phroute": "^2.2",
+        "phpmailer/phpmailer": "v5.2.16"
+    }
+}
